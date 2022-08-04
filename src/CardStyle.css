@@ -1,0 +1,107 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.board {
+  padding: 30px;
+}
+
+.card {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  color: #272727;
+  border-color: 1px solid rgba(255, 255, 255, 0.18);
+  transition: 200ms;
+  max-width: 300px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 10px;
+}
+
+.card:hover {
+  transition: 200ms;
+  border: 3px;
+  border-color: rgba(255, 255, 255, 0.18);
+  border-style: solid;
+}
+
+.card-header {
+  background-color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.profile {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: rgba(216, 197, 246, 0.776);
+  border-radius: 50%;
+  margin: 10px;
+  font-size: 20pt;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  justify-content: center;
+}
+
+.letter {
+  vertical-align: middle;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.card-title-group {
+  justify-content: center;
+}
+
+.card-title {
+  flex: 0.5;
+  font-size: large;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.card-date {
+  flex: 0.3;
+  font-size: small;
+  margin-top: 0;
+}
+
+.card-image {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 16rem;
+  height: 9rem;
+  margin-top: 10px;
+}
+.card-like-icon {
+  height: 25px;
+}
+
+.card-text {
+  width: 280px;
+  font-size: medium;
+}
+
+.card-like-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.like-text {
+  font-size: small;
+  margin-left: 10px;
+  color: #272727;
+}
